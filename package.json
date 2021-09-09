@@ -1,0 +1,46 @@
+{
+  "name": "check-basic-tool-list",
+  "version": "1.0.0",
+  "description": "Script to check the links in Steve Ramsey's basic tool list",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanikas01/check-basic-tool-list.git"
+  },
+  "keywords": [
+    "Weekend",
+    "Woodworker",
+    "Basic",
+    "Tool",
+    "List"
+  ],
+  "author": "Kurt Statham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanikas01/check-basic-tool-list/issues"
+  },
+  "homepage": "https://github.com/kanikas01/check-basic-tool-list#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.12.1",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/selenium-standalone-service": "^6.12.1",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "mocha": "^8.2.1",
+    "selenium-standalone": "^6.23.0",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^6.12.1"
+  },
+  "dependencies": {
+    "chromedriver": "^93.0.1",
+    "dotenv": "^8.2.0"
+  }
+}
