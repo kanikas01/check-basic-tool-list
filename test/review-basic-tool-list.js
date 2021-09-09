@@ -21,12 +21,13 @@ function getBasicToolListItems() {
   const productLinks = $$(
     "//a[@class='amzn-native-product-title'] | //img[starts-with(@class,'fl-photo-img')]//parent::a"
   );
-  console.log(productLinks.length);
+  console.log('Number of product links: ' + productLinks.length);
   for (const link of productLinks) {
-    if (link.getAttribute("href") !== "#") {
+    let productUrl = link.getAttribute("href");
+    if (productUrl !== "#") {
       browser.execute((url) => {
         window.open(url);
-      }, link.getAttribute("href"));
+      }, productUrl);
     }
   }
 }
