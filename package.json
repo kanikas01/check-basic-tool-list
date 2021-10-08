@@ -40,7 +40,7 @@
     "webdriverio": "^6.12.1"
   },
   "dependencies": {
-    "chromedriver": "^93.0.1",
+    "chromedriver": "^94.0.0",
     "dotenv": "^8.2.0"
   }
 }
